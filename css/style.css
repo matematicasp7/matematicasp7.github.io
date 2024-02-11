@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background: lightgray;
+    background:lightgray;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -39,6 +39,14 @@ nav ul li{
 #content{
     float: left;
     width: calc(83% - 40px);
+    background: #eee;
+    min-height: 500px;
+    padding: 20px;
+}
+
+#contentwa{
+    float: left;
+    width: calc(100% - 40px);
     background: #eee;
     min-height: 500px;
     padding: 20px;
@@ -81,20 +89,20 @@ footer{
 
  /* unvisited link */
  a:link {
-    color: red;
+    color: rgba(32, 28, 28, 0.74);
   }
   
   /* visited link */
   a:visited {
-    color: green;
+    color: rgb(35, 110, 35);
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    color: rgb(46, 80, 100);
   }
   
   /* selected link */
   a:active {
-    color: blue;
+    color: rgb(110, 116, 29);
   } 
