@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 80%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header{
+    background: #3b4042;
+    color: white;
+    height: 80px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 80px;
+    border-bottom: 3px dashed black;
+}
+
+nav{
+    background: #416fad;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+#content{
+    float: left;
+    width: calc(83% - 40px);
+    background: #eee;
+    min-height: 500px;
+    padding: 20px;
+}
+
+aside{
+    float: left;
+    width: calc(17% - 20px);
+    background: orange;
+    min-height: 520px;
+    padding: 10px;
+}
+
+footer{
+    background: #3b4042;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+.clearfix{
+    clear: both;
+}
+.article{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.article: :first-child{
+    border-top: 1px solid #eee;
+}
+
+.article h2{
+    font-size: 25px;
+}
+
+ /* unvisited link */
+ a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  } 
