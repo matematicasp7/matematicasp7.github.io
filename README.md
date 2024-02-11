@@ -1,2 +1,2 @@
 # matematicasp7.github.io
-Repositorio de información de apoyo académico de Matemáticas ENP 7 UNAM
+Repositorio de información de apoyo académico de Mate ENP 7 UNAM

@@ -38,7 +38,7 @@ nav ul li{
 
 #content{
     float: left;
-    width: calc(83% - 40px);
+    width: calc(80% - 40px);
     background: #eee;
     min-height: 500px;
     padding: 20px;
@@ -54,10 +54,14 @@ nav ul li{
 
 aside{
     float: left;
-    width: calc(17% - 20px);
+    width: calc(20% - 20px);
     background: orange;
     min-height: 520px;
     padding: 10px;
+}
+
+aside h2{
+  text-align: center;
 }
 
 footer{
@@ -87,22 +91,58 @@ footer{
     font-size: 25px;
 }
 
- /* unvisited link */
- a:link {
-    color: rgba(32, 28, 28, 0.74);
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
   }
   
-  /* visited link */
+  a:link {
+    color: #080255;
+  }
+  
   a:visited {
-    color: rgb(35, 110, 35);
+    color: #080255;
   }
   
-  /* mouse over link */
+  a:focus {
+    border-bottom: 1px solid;
+    background: #bae498;
+  }
+  
   a:hover {
-    color: rgb(46, 80, 100);
+    border-bottom: 1px solid;
+    background: #cdfeaa;
   }
   
-  /* selected link */
   a:active {
-    color: rgb(110, 116, 29);
-  } 
+    background: #12b9e2;
+    color: #cdfeaa;
+  }
+
+  ul,
+ol,
+dl,
+p {
+  font-size: 1.5rem;
+}
+
+li,
+p {
+  line-height: 1.5;
+}
+
+/* Estilos para las listas de descripciones */
+
+dd,
+dt {
+  line-height: 1.5;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1.5rem;
+}
