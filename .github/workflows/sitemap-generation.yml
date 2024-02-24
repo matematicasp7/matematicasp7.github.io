@@ -26,6 +26,6 @@ jobs:
           git config --global user.name 'matematicasp7'
           git config --global user.email 'prepaprofesoresmatematicasp7@gmail.com'
           git add sitemap.xml
-          git commit -m "Automated sitemap update" sitemap.xml
+          git commit -m "Automated sitemap update for comments contact Adolfo Bravo" sitemap.xml
           git push
         fi
