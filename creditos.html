@@ -18,55 +18,62 @@
             Mate - ENP 7
         </title>
         <link rel="icon" type="image/png" href="img/fivicon.png"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         
     </head>
     <body>
         <div id="container">
-            <header>
-                <h1>Matemáticas - Repositorio - ENP 7 <img src="img/logoP7.png" width="5%"/></h1>
+            <div class="row">
+            <header class="row align-items-around">
+                <div class="col"><h1>Matemáticas - Repositorio - ENP 7 </h1></div>
+                <div class="col"><img src="img/logoP7.png" width="50px"/></div>
+                
             </header>
-            <nav>
+            <nav class="row align-items-center">
                 <ul>
-                    <li>
+                    <li class="col-12 col-md-1">
                         <a href="index.html">
                             Inicio
                         </a>
                     </li>
-                    <li>
+                    <li class="col-12 col-md-1">
                         <a href="mateiv.html">
                             Mate IV
                         </a>
                     </li>
-                    <li>
+                    <li class="col-12 col-md-1">
                         <a href="matev.html">
                             Mate V
                         </a>
                     </li>
-                    <li>
+                    <li class="col-12 col-md-2">
                         <a href="matevi-12.html">
                             Mate VI áreas I y II
                         </a>
                     </li>
-                    <li>
+                    <li class="col-12 col-md-1">
                         <a href="matevi-3.html">
                             Mate VI área III
                         </a>
                     </li>
-                    <li>
+                    <li class="col-12 col-md-1">
                         <a href="matevi-4.html">
                             Mate VI área IV
                         </a>
                     </li>
-                    <li>
+                    <li class="col-12 col-md-1">
                         <a href="optativas.html">
                            Optativas
                        </a>
                     </li>
                 </ul>
             </nav>
-            <div class="clearfix"></div>
-            <section id="content">
+        </div>
+            <div class="row">
+                <section id="content" class="col-12 col-md-10 align-items-center">
                 <article class="article">
                     <h4 class="card-title">Colaborador, diseño y desarrollo Web</h4>
 					<p class="card-text">Profesor<br>- <a target="_blank"
@@ -78,18 +85,20 @@
                 </article>
                 
             </section>
-            <aside>
+            <aside class="col-12 col-md-2">
                 <h2>Contacto</h2>
                 <p class="card-text">Para colaborar con el contenido puedes mandar un correo a 
                     <a href="mailto:adolfo.bravo@enp.unam.mx">Adolfo Bravo</a>
                 </p>
             </aside>
-            <div class="clearfix"></div>
+        </div>
+        <div class="row col-12">
             <footer>
                 Página de Profesores Matemática ENP 7 - <a href="creditos.html">Créditos</a>
             </footer>
-            
         </div>
-       
-    </body>
+        
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
