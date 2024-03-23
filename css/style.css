@@ -1,14 +1,10 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 body{
     background:lightgray;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #container{
-    width: 80%;
     margin: 0px auto;
     border: 1px solid black;
 }
@@ -16,8 +12,6 @@ body{
 header{
     background: #3b4042;
     color: white;
-    height: 80px;
-    width: 100%;
     margin: 0px;
     text-align: center;
     line-height: 80px;
@@ -26,7 +20,6 @@ header{
 
 nav{
     background: #416fad;
-    height: 50px;
     border-bottom: 1px solid black;
 }
 nav ul li{
@@ -38,7 +31,6 @@ nav ul li{
 
 #content{
     float: left;
-    width: calc(80% - 40px);
     background: #eee;
     min-height: 500px;
     padding: 20px;
@@ -46,7 +38,6 @@ nav ul li{
 
 #contentwa{
     float: left;
-    width: calc(100% - 40px);
     background: #eee;
     min-height: 500px;
     padding: 20px;
@@ -54,9 +45,8 @@ nav ul li{
 
 aside{
     float: left;
-    width: calc(20% - 20px);
     background: orange;
-    min-height: 520px;
+
     padding: 10px;
 }
 
