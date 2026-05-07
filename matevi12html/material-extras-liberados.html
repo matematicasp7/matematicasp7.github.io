@@ -22,55 +22,16 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../css/style.css"/>
-        
+         <script src="../js/components/header.js" type="text/javascript" defer></script>
+        <script src="../js/components/menu.js" type="text/javascript" defer></script>
+        <script src="../js/components/footer.js" type="text/javascript" defer></script>
     </head>
     <body>
         <div id="container">
             <div class="row">
-            <header class="row align-items-around">
-                <div class="col"><h1>Matemáticas - Repositorio - ABravo </h1></div>
-                <div class="col"><img src="../img/logoP7.png" width="50px"/></div>
-                
-            </header>
-            <nav class="row align-items-center">
-                <ul>
-                    <li class="col-12 col-md-1">
-                        <a href="../index.html">
-                            Inicio
-                        </a>
-                    </li>
-                    <li class="col-12 col-md-1">
-                        <a href="../mateiv.html">
-                            Mate IV
-                        </a>
-                    </li>
-                    <li class="col-12 col-md-1">
-                        <a href="../matev.html">
-                            Mate V
-                        </a>
-                    </li>
-                    <li class="col-12 col-md-2">
-                        <a href="../matevi-12.html">
-                            Mate VI áreas I y II
-                        </a>
-                    </li>
-                    <li class="col-12 col-md-1">
-                        <a href="../matevi-3.html">
-                            Mate VI área III
-                        </a>
-                    </li>
-                    <li class="col-12 col-md-1">
-                        <a href="../matevi-4.html">
-                            Mate VI área IV
-                        </a>
-                    </li>
-                    <li class="col-12 col-md-1">
-                        <a href="../optativas.html">
-                           Optativas
-                       </a>
-                    </li>
-                </ul>
-            </nav>
+            <header-component></header-component>
+            <menu-component></menu-component>
+
         </div>
             <div class="row">
                 <section id="content" class="col-12 col-md-10 align-items-center">
@@ -94,9 +55,7 @@
             </aside>
         </div>
         <div class="row col-12">
-            <footer>
-                Matemática ENP 7 - <a href="../creditos.html">Créditos</a>
-            </footer>
+            <footer-component></footer-component>
         </div>
         
     </div>
